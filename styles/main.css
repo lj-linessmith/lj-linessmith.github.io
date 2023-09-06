@@ -1,0 +1,10 @@
+#body {
+  background-color: #9370d8;
+}
+/* header properties */
+
+#header {
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: 600;
+}
