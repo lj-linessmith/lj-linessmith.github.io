@@ -4,7 +4,7 @@ pale purple (text): #C5C9FF
 light purple (accent #1: #9D79C7
 purple (main background): #7663C0
 dark purple (header, footer, borders): #39267E
-green (accent #2): #46AEA4
+green (accent #2): #00A973
 yellow (accent #3): #FFF160
 pink (title text): #D642B6
 
@@ -20,8 +20,9 @@ a:visited {
 }
 a:hover {
   text-decoration: none;
-  color: #46aea4;
+  color: #00a973;
 }
+/* setting colours for links*/
 
 #body {
   min-height: 100vh;
@@ -40,8 +41,17 @@ a:hover {
   font-size: 2em;
   text-align: center;
 }
-/* header properties */
+
+#text2 {
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: monospace;
+  font-size: 1em;
+  text-align: left;
+}
+
 #header {
+  position: fixed 'top';
   background-color: #39267e;
   width: 100%;
   height: 5%;
@@ -53,19 +63,20 @@ a:hover {
   padding-bottom: 2%;
   text-align: center;
 }
-
+/* header properties */
 #h1 {
   font-size: 4em;
   padding-left: 3%;
   color: #c5c9ff;
 }
-
+/*unique page heading properties*/
 #footer {
+  position: fixed 'bottom';
   margin-top: auto;
   background-color: #39267e;
   width: 100%;
   height: 5%;
-  color: #46aea4;
+  color: #00a973;
   @font-face {
     font-family: 'Teko, sans-serif';
   }
@@ -73,7 +84,8 @@ a:hover {
   padding-top: 2%;
   padding-bottom: 2%;
 }
-
+/* footer properties*/
 #link {
   padding-left: 4%;
 }
+/*link spacing*/
