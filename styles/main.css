@@ -10,23 +10,39 @@ pink (title text): #D642B6
 
 */
 
+a:link {
+  text-decoration: none;
+  color: #fff160;
+}
+a:visited {
+  text-decoration: none;
+  color: #fff160;
+}
+a:hover {
+  text-decoration: none;
+  color: #46aea4;
+}
+
 #body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   background-color: #7663c0;
   @font-face {
     font-family: 'Teko', sans-serif;
-    src: ;
   }
+  color: #c5c9ff;
 }
 /* header properties */
 
 #header {
   background-color: #39267e;
   width: 100%;
-  height: 70px;
+  height: 5%;
   font-family: monospace;
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 4em;
+  font-weight: 900;
   color: #d642b6;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -36,4 +52,19 @@ pink (title text): #D642B6
 #h1 {
   font-size: 40px;
   padding-left: 3%;
+  color: #c5c9ff;
+}
+
+#footer {
+  margin-top: auto;
+  background-color: #39267e;
+  width: 100%;
+  height: 5%;
+  color: #46aea4;
+  @font-face {
+    font-family: 'Teko, sans-serif';
+  }
+  font-size: 2em;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
